@@ -1,4 +1,4 @@
-import ProductCard from '@/components/ProductCard';
+import ProductCard from '../../components/ProductCard';
 
 type Item = { id: number | string; title: string; price: number; image?: string };
 

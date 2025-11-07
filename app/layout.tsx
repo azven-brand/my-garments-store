@@ -1,5 +1,5 @@
 
-import './globals.css'
+import '../styles/globals.css'; // <-- sahi path
 import Header from '../components/Header'
 export const metadata = { title: 'Garments Store', description: 'Free clothing eCommerce starter' }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
